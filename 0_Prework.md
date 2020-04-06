@@ -1,7 +1,7 @@
 # 事前準備：環境建置與工具安裝
 本次 LAB將會進行 Azure Kubernetes Service 的操作
 
-不熟悉 Kubernetes 的人可以先參考[Kubernetes Learning Path](./Kubernetes_Learning_Path.pdf)
+不熟悉 Kubernetes 的人可以先[下載參考 Kubernetes Learning Path](./Kubernetes_Learning_Path.pdf)
 
 本次 LAB 會需要使用到下述工具，請依序安裝
 
