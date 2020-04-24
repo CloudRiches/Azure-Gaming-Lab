@@ -1,0 +1,51 @@
+doctype html
+html
+head
+    title Whack-a-mole
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/whack_a_mole.css')
+
+
+body
+    div(id='game')
+    div(id='playground')
+    div(id='score')
+        h2(class='text-danger') Scoreboard
+        h3
+        span(class='text-info') Username: 
+            span
+            input(type="text" id="username" value="Kernel" style="width:100px;")
+        h3
+        span(class='text-info') Your score: 
+            span
+            span(id='current-score' class='scores') 0
+        h3
+        span(class='text-info') Level: 
+            span
+            span(id='current-level' class='scores') 1
+        h3
+        span(class='text-info') Life: 
+        div(class='progress')
+        div(id='progress' class='progress-bar' role='progressbar' aria-valuenow='100' aria-valuemin='0' aria-valuemax='100' style='width: 100%;') 100
+        hr
+        p
+        select(id='sizing' class='form-control')
+            option 3
+            option 4
+            option 5
+            option 6
+            option 7
+        p
+        button(id='start' class='btn btn-default') Start
+        button(id='stop' class='btn btn-default') Stop
+        p
+        button(id='history' class='btn btn-default') History
+        button(id='clear' class='btn btn-default') Clear
+    div(id='control')
+
+
+
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js')
+    script(src='/javascripts/whack_a_mole.js')

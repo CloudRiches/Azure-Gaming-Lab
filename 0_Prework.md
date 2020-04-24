@@ -60,3 +60,12 @@
 
 
 
+---
+* now→[事前準備](./0_Prework.md)：環境建置與工具安裝
+* [步驟一](./1_AKS.md)：建立 Azure Kubernetes Service (AKS)
+* [步驟二](./2_ACR.md)：建立 Azure Container Registry (ACR)
+* [步驟三](./3_MySQL.md)：建立 Azure Database for MySQL
+* [步驟四](./4_CreateProject.md)：建立 Azure DevOps Repository 與 Node.js Express 專案
+* [步驟五](./5_Coding.md)：撰寫程式碼
+* [步驟六](./6_PipelineDeploy.md)：建立Azure DevOps Pipeline 部署至Azure Kubernetes Service (AKS)
+* [步驟七](./7_CICD.md)：修改 source code 觸發 CI/CD
